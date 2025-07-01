@@ -1,10 +1,42 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>My First HTML Page</title>
-    </head>
-    <body>
-        <h1>Heading1</h1>
-     <p>This is a paragraph inside the a <strong>basic</strong> html<br/> document</p>
-    </body>
+<head>
+  <title>Interactive Button</title>
+  <style>
+    #button {
+      background-color:rgb(8, 54, 94)
+      color:darkslategray
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    
+    #button:hover {
+      background-color:rgb(12, 38, 86);
+    }
+  </style>
+</head>
+<center>
+<h2>WELCOME TO APPLICATION</h2>
+</center>
+</html>
+</html>
+<body>
+    <center>
+    <form action="form">
+        <label for="username">username</label>
+        <input type="text" name="username" id="">
+        <lable2 for="password">enter password</lable2>
+        <input type="text" password="............"id="">
+        <button id="button" onclick="changeColor()">Click.</button>
+    </center>
+    </form>
+  <script>
+    function changeColor() {
+      document.getElementById("button").style.background = "#008CBA";
+      alert("enter correct username");
+    }
+  </script>
+</body>
 </html>
